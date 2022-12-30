@@ -1,0 +1,4 @@
+# change hostport in ubuntu@10-1-1-79 place we have to mention one name using below command
+hostnamectl set-hostname node-2(which name you want give that name)
+ cat /etc/hostname  ------ to check hostname is changed or not.
+ then terminal close and again restart.
