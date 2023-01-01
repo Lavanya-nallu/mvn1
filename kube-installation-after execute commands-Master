@@ -1,0 +1,8 @@
+kubeadm init --pod-network-cidr=192.168.0.0/16 --v=5
+   41  systemctl status kubelet
+   42  mkdir -p $HOME/.kube
+   43  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+   44  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+   45  kubectl get nodes
+   46  kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml
+   47  kubectl get nodes
