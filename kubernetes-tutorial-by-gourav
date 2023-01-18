@@ -6,3 +6,7 @@ https://labs.play-with-k8s.com/
 https://kubernetes.io/docs/reference/
 https://chrislovecnm.com/kubernetes/cni/choosing-a-cni-provider/
 https://kubernetes.io/docs/concepts/storage/storage-classes/
+https://github.com/kubernetes/examples/tree/master/cassandra
+https://github.com/mozilla/sops
+https://doc.traefik.io/traefik/
+https://doc.traefik.io/traefik/v1.7/configuration/backends/kubernetes/
