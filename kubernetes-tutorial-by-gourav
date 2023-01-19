@@ -10,3 +10,5 @@ https://github.com/kubernetes/examples/tree/master/cassandra
 https://github.com/mozilla/sops
 https://doc.traefik.io/traefik/
 https://doc.traefik.io/traefik/v1.7/configuration/backends/kubernetes/
+https://helm.sh/
+https://artifacthub.io/------ for install kubernetes packages
