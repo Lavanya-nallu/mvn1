@@ -1,2 +1,6 @@
 jenkins------https://www.baeldung.com/linux/remove-jenkins#:~:text=The%20apt%2Dget%20remove%20command,configuration%20files%20from%20the%20machine.
 sonarqube-----https://community.sonarsource.com/t/running-sonarqube-as-a-service-vis-systemctl-exits-immediatley/44508
+docker contaier stop some time-----https://www.baeldung.com/ops/running-docker-containers-indefinitely#:~:text=The%20simplest%20way%20to%20keep,a%20command%20that%20never%20ends.&text=We%20can%20use%20never%2Dending,in%20the%20docker%20run%20command.
+                             ------https://webkul.com/blog/docker-container-will-automatically-stop-run/
+                             ----https://betterprogramming.pub/understanding-docker-container-exit-codes-5ee79a1d58f6#:~:text=Exit%20code%200%20indicates%20that,necessarily%20mean%20something%20bad%20happened.
+                             
