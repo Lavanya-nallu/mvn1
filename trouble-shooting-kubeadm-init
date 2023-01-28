@@ -1,1 +1,4 @@
 https://stackoverflow.com/questions/72504257/i-encountered-when-executing-kubeadm-init-error-issue
+rm /etc/containerd/config.toml
+systemctl restart containerd
+kubeadm init
