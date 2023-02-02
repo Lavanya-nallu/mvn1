@@ -1,0 +1,27 @@
+ helm install prometheus --values prometheus-customvalues.yaml  .
+   63  kubectl -n myns apply -f https://raw.githubusercontent.com/prometheus-operator/prometheus-operator/v0.52.0/example/prometheus-operator-crd/monitoring.coreos.com_alertmanagers.yaml
+   64  kubectl -n myns apply -f https://raw.githubusercontent.com/prometheus-operator/prometheus-operator/v0.52.0/example/prometheus-operator-crd/monitoring.coreos.com_prometheuses.yaml
+   65  kubectl -n myns apply -f https://raw.githubusercontent.com/prometheus-operator/prometheus-operator/v0.52.0/example/prometheus-operator-crd/monitoring.coreos.com_prometheusrules.yaml
+   66  kubectl -n myns apply -f https://raw.githubusercontent.com/prometheus-operator/prometheus-operator/v0.52.0/example/prometheus-operator-crd/monitoring.coreos.com_servicemonitors.yaml
+   67  helm install prometheus --values prometheus-customvalues.yaml  .
+   68  helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+   69  helm repo update
+   70  helm install kube-prometheus-stack prometheus-community/kube-prometheus-stack
+   71  kubectl get pods
+   72  helm status prometheus
+   73  helm status stable/prometheus
+   74  helm list
+   75  helm status kube-prometheus-stack
+   
+   grafana
+   ===============================
+   helm install grafana --values grafana-customvalues.yaml  .
+   85  helm repo add grafana https://grafana.github.io/helm-charts
+   86  helm repo update
+   87  helm install my-release grafana/grafana-agent-operator
+   88  helm install my-release grafana/grafana-agent-operator -f values.yaml
+   89  kubectl get pods
+   90  kubectl get all -l "release=grafana"
+   91  helm install my-release grafana/grafana-agent-operator -n myns
+   92  helm list
+   93  kubectl get all -l "release=my-release"
